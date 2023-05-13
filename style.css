@@ -1,0 +1,188 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    width: 960px;
+    height: auto;
+    margin: 0% auto;
+
+}
+.nav{
+    width: 960px;
+    height: auto;
+    background: blue;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+.nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding:20px 35px ;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.nav ul li a:hover{
+    color: #c23131;
+    background-color: rgb(234, 247, 247);
+
+}
+.banner-cover{
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.batton-type{
+    padding: 100px;
+    text-align: center;
+
+    
+    
+}
+.batton-type button{
+    font-size: 18px;
+    height: 30px;
+    width: 70%;
+    font-weight: bold;
+    border-radius: 5px;
+border: 1px solid yellowgreen;    
+}
+
+
+
+.about-logo img{
+    width: 150px;
+    height:auto;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    box-shadow:0px 8px 10px 0px rgb(187, 168, 168) ;
+}
+.about-text{
+    width: 520px;
+    height: auto;
+    padding: 2px 20px;
+    margin: 10px;
+}
+
+.about-text h2{
+    font-size: 25px;
+    height: auto;
+    text-transform: uppercase;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 20PX;
+
+}
+.about-text P{
+    font-size: 16PX;
+    color: gray;
+    height: auto;
+}
+.row{
+    overflow: auto;
+
+}
+.col{
+    float: left;
+}
+.about-section{
+background-color: rgb(214, 206, 214);
+padding:40px 0px ;
+margin-top:10px ;
+}
+.title{
+
+    width: 140px;
+    height: auto;
+    margin: 0 auto;
+}
+.title h2{
+ font-size: 15px;
+ font-weight: bold;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ text-align: center;
+ margin-bottom: 30px;
+ border-bottom: 1px solid #fff;
+
+}
+.service{
+    width: 280px;
+    height: auto;
+    border: 1px solid rgb(27, 27, 27);
+ text-align: center;
+ display: inline-block;
+ margin: 10px;
+ 
+
+
+}
+.service-section{
+    background: rgb(214, 206, 214);
+    margin-top: 20px;
+    padding: 40px 0px;
+}
+
+.serv-icon{
+    font-size: 40px;
+    margin-top: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 0px 10p x;
+
+}
+.contract{
+width: 100px;
+background: #fff;
+padding: 20px 0px 10px #ccc;
+position: relative;
+color: azure;
+margin: 20px;
+display:inline-block;
+text-align: center;
+padding: 5px;
+}
+.contract p{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(78, 72, 72);
+    padding:0;
+     margin: 0;   
+
+}
+.contract-scetion{
+    background:#e9b4b4 ;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+footer{
+    width: 960px;
+    margin: 0  auto;
+    height: auto;
+    background-color: black;
+}
+.footer-text{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.footer-icone{
+    color: #fff;
+    size: 25px;
+    font-size: 20px;
+    margin: 25px;
+}
+.footer-icone i{
+    size: 25px;
+    font-size: 20px;
+    margin: 15px;
+    padding: 0px 80px;
+}
